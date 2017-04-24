@@ -586,8 +586,9 @@
 //  (0,0)
 
 
-#define X_PROBE_OFFSET_FROM_EXTRUDER -26  // X offset: -left  +right  [of the nozzle]
-#define Y_PROBE_OFFSET_FROM_EXTRUDER -40  // Y offset: -front +behind [the nozzle]
+// for this http://www.thingiverse.com/thing:2134781
+#define X_PROBE_OFFSET_FROM_EXTRUDER 4  // X offset: -left  +right  [of the nozzle]
+#define Y_PROBE_OFFSET_FROM_EXTRUDER -70  // Y offset: -front +behind [the nozzle]
 #define Z_PROBE_OFFSET_FROM_EXTRUDER 0   // Z offset: -below +above  [the nozzle]
 
 
