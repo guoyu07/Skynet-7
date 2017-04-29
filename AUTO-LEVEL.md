@@ -13,6 +13,7 @@ G1 X110 Y110; bring nozzle to centre
 
 ```
 G92 Z0; tell printer 'this is now Z0'
+G30 X110 Y110; test trigger distance
 ```
 
 * Response is something like `Recv: Bed X: 110.00 Y: 110.00 Z: 2.02`. Subtract the Z-value from 0 for the next line
